@@ -27,6 +27,7 @@ const randomImages = [
 ]
 
 const App = () => {
+
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
 
